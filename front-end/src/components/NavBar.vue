@@ -1,0 +1,32 @@
+<template>
+<div class="header">
+    <div class="container">
+        <div class="navbar">
+            <div class="logo">
+                <img src="/static/images/logo.png" width="125px">
+            </div>
+            <nav>
+                <ul>
+                    <li> <a href="">Accueil</a></li>
+                    <li> <a href="">Produits</a></li>
+                    <li> <a href="">A propos</a></li>
+                    <li> <a href="">Contact</a></li>
+                    <li> <a href="">Compte</a></li>
+                </ul>
+            </nav>
+            <img src="/static/images/cart.png" width="30px" height="30px">
+        </div>
+        <div class="row">
+            <div class="col-2">
+                <h1>Bientôt<br>Un Nouveau Style!</h1>
+                <p>SneakMe est un magasin de chaussures spécialisé dans les paires exclusives / éditions limitées
+                </p>
+                <a href="" class="btn">Voir plus &#8594; </a>
+            </div>
+            <div class="col-2">
+                <img src="/static/images/paire.png" alt="">
+            </div>
+        </div>
+    </div>
+</div>
+</template>
