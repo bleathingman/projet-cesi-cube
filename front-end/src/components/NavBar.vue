@@ -3,7 +3,7 @@
     <div class="container">
         <div class="navbar">
             <div class="logo">
-                <img src="/static/images/logo.png" width="125px">
+                <img src="../assets/logo.png" width="125px">
             </div>
             <nav>
                 <ul>
@@ -14,7 +14,7 @@
                     <li> <a href="">Compte</a></li>
                 </ul>
             </nav>
-            <img src="/static/images/cart.png" width="30px" height="30px">
+            <img src="../assets/cart.png" width="30px" height="30px">
         </div>
         <div class="row">
             <div class="col-2">
@@ -24,7 +24,7 @@
                 <a href="" class="btn">Voir plus &#8594; </a>
             </div>
             <div class="col-2">
-                <img src="/static/images/paire.png" alt="">
+                <img src="../assets/paire.png" alt="paire.png">
             </div>
         </div>
     </div>
