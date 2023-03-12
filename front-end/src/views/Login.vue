@@ -1,5 +1,4 @@
 <template>
-    <h1>Login Form</h1>
     <div class="login-box">
         <h1>Connectez-vous</h1>
         <p class="reminder">Connectez-vous à votre compte pour continuer.</p>

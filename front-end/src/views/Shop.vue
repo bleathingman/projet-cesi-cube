@@ -1,4 +1,34 @@
 <template>
+    <div class="header">
+        <div class="container">
+            <div class="navbar">
+                <div class="logo">
+                    <img src="../assets/logo.png" width="125px">
+                </div>
+                <nav>
+                    <ul>
+                        <li> <a href="">Accueil</a></li>
+                        <li> <a href="">Produits</a></li>
+                        <li> <a href="">A propos</a></li>
+                        <li> <a href="">Contact</a></li>
+                        <li> <a href="">Compte</a></li>
+                    </ul>
+                </nav>
+                <img src="../assets/cart.png" width="30px" height="30px">
+            </div>
+            <div class="row">
+                <div class="col-2">
+                    <h1 class="bg-purple-500">Bientôt<br>Un Nouveau Style!</h1>
+                    <p>SneakMe est un magasin de chaussures spécialisé dans les paires exclusives / éditions limitées
+                    </p>
+                    <a href="" class="btn">Voir plus &#8594; </a>
+                </div>
+                <div class="col-2">
+                    <img src="../assets/paire.png" alt="paire.png">
+                </div>
+            </div>
+        </div>
+    </div>
     <div id="app" class="chat-bar-collapsible">
         <button id="chat-bubble" type="button" class="collapsible" @click="toggleChatbox">
             <i id="chat-icon" class="fa fa-fw fa-comments-o"></i></button>
@@ -38,55 +68,8 @@
 
 <script>
 
-function getTime() {
-    let today = new Date();
-    let hours = today.getHours();
-    let minutes = today.getMinutes();
-
-    if (hours < 10) {
-        hours = "0" + hours;
-    }
-    if (minutes < 10) {
-        minutes = "0" + minutes;
-    }
-    let time = hours + ":" + minutes;
-    return time;
+export default {
+    name: 'Shop'
 }
-Vue.createApp({
-    data() {
-        return {
-            isActive: false,
-            msg: "",
-            conversation: [],
-        }
-    },
-    methods: {
-        toggleChatbox: function () {
-            // console.log(getTime())
-            this.isActive = !this.isActive
-        },
-        traitementMessage: function () {
-            // console.log(this.msg)
-            if (!this.msg) {
-                this.conversation.push("Bonjour")
-            } else {
-                this.conversation.push(this.msg)
-            }
-
-            if (this.msg === "bonjour") {
-                { this.conversation.push("Bonjour, souhaitez-vous un renseignement sur l'un de nos produits ?") }
-            } else if (this.msg === "au revoir") {
-                this.conversation.push("A bientôt, bonne journée!")
-            } else {
-                this.conversation.push("Essayez de demander autre chose!")
-            }
-            if (this.msg === "Avez-vous des nouveautés en stock ?") {
-                { this.conversation.push("Oui, nous avons de nouveaux modèles de sneakers en stock. Vous pouvez les consulter sur notre site web ou visiter notre magasin pour les voir en personne.") }
-            } else {
-                this.conversation.push()
-            }
-        }
-    }
-}).mount('#app')
-
 </script>
+<style scoped></style>

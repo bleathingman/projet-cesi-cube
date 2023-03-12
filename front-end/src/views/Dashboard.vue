@@ -5,9 +5,7 @@
 <script>
 
 export default {
-    name: 'Login'
+    name: 'Dashboard'
 }
 </script>
-<style scoped>
-
-</style>
+<style scoped></style>
