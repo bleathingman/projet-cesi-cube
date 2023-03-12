@@ -1,9 +1,14 @@
-import { createApp } from "vue";
+import { createApp } from "vue"
+import store from "./store"
+import router from "./router"
 
-import store from "./store";
+// Style
+import "./css/style.css"
+import "./input.css"
 
-import "./css/style.css";
-import "./input.css";
-import App from "./App.vue";
+import App from "./App.vue"
 
-createApp(App).use("store").use("router").mount("#app");
+createApp(App)
+    .use(store)
+    .use(router)
+    .mount("#app")

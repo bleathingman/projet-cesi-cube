@@ -1,4 +1,6 @@
 <script setup>
+import { createApp } from 'vue'
+import { createStore } from 'vuex'
 </script>
 
 <template>
