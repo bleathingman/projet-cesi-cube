@@ -5,6 +5,8 @@ import router from "./router"
 // Style
 import "./css/style.css"
 import "./css/chat.css"
+import "./css/shop.css"
+import "./css/dashboard.css"
 import "./input.css"
 
 import App from "./App.vue"

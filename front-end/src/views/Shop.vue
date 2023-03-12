@@ -5,13 +5,13 @@
                 <div class="logo">
                     <img src="../assets/logo.png" width="125px">
                 </div>
-                <nav>
-                    <ul>
-                        <li> <a href="">Accueil</a></li>
-                        <li> <a href="">Produits</a></li>
-                        <li> <a href="">A propos</a></li>
-                        <li> <a href="">Contact</a></li>
-                        <li> <a href="">Compte</a></li>
+                <nav class="navlink">
+                    <ul class="navbar-item">
+                        <li> <a href="/">Accueil</a></li>
+                        <li> <a href="/produits">Produits</a></li>
+                        <li> <a href="/a-propos">A propos</a></li>
+                        <li> <a href="/contact">Contact</a></li>
+                        <li> <a href="/Compte">Compte</a></li>
                     </ul>
                 </nav>
                 <img src="../assets/cart.png" width="30px" height="30px">
@@ -29,6 +29,50 @@
             </div>
         </div>
     </div>
+
+    <!-- Catégories  -->
+    <div class="categories">
+        <div class="small-container">
+            <div class="row">
+                <div class="col-3">
+                    <img src="../assets/dunk-low-black-white.avif">
+                </div>
+                <div class="col-3">
+                    <img src="../assets/dunk-low-black-white.avif">
+                </div>
+                <div class="col-3">
+                    <img src="../assets/dunk-low-black-white.avif">
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Produits -->
+    <div class="small-container">
+        <h2 class="title">Produits</h2>
+        <div class="row">
+            <div class="col-4">
+                <img src="../assets/dunk-low-black-white.avif" alt="">
+                <h4>Dunk Low Black White</h4>
+                <p>150$</p>
+            </div>
+            <div class="col-4">
+                <img src="../assets/dunk-low-black-white.avif" alt="">
+                <h4>Dunk Low Black White</h4>
+                <p>150$</p>
+            </div>
+            <div class="col-4">
+                <img src="../assets/dunk-low-black-white.avif" alt="">
+                <h4>Dunk Low Black White</h4>
+                <p>150$</p>
+            </div>
+            <div class="col-4">
+                <img src="../assets/dunk-low-black-white.avif" alt="">
+                <h4>Dunk Low Black White</h4>
+                <p>150$</p>
+            </div>
+        </div>
+    </div>
+
     <div id="app" class="chat-bar-collapsible">
         <button id="chat-bubble" type="button" class="collapsible" @click="toggleChatbox">
             <i id="chat-icon" class="fa fa-fw fa-comments-o"></i></button>
