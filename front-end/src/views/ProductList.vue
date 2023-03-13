@@ -1,6 +1,4 @@
 <template>
-    <div class="area"></div>
-    <!-- TODO Dynamiser le menu dashboard-->
     <nav class="main-menu">
         <ul>
             <li>
@@ -10,7 +8,7 @@
                 </a>
             </li>
             <li>
-                <a href="/dashboard/settings">
+                <a href="/dashboard/settin">
                     <i class="fa fa-cog fa-2x"></i>
                     <span class="nav-text">Paramètres</span>
                 </a>
@@ -41,7 +39,6 @@
 
 <script>
 export default {
-    name: "Dashboard",
+    name: "ProductList",
 };
 </script>
-<style scoped></style>
