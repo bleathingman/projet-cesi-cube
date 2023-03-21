@@ -11,7 +11,7 @@
                         <li> <a href="/produits">Produits</a></li>
                         <li> <a href="/a-propos">A propos</a></li>
                         <li> <a href="/contact">Contact</a></li>
-                        <li> <a href="/Compte">Compte</a></li>
+                        <li> <a href="/login">Connexion</a></li>
                     </ul>
                 </nav>
                 <img src="../assets/cart.png" width="30px" height="30px">

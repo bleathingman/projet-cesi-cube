@@ -1,6 +1,4 @@
 <template>
-    <div class="area"></div>
-    <!-- TODO Dynamiser le menu dashboard-->
     <nav class="main-menu">
         <ul>
             <li>
@@ -41,6 +39,6 @@
 
 <script>
 export default {
-    name: "Dashboard",
+    name: "ProductList",
 };
 </script>

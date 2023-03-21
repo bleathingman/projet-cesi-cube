@@ -4,9 +4,17 @@ import { createStore } from 'vuex'
 </script>
 
 <template>
-  <router-view></router-view>
+    <router-view></router-view>
 </template>
 
-<style scoped>
+<style scoped></style>
 
-</style>
+<script>
+import NavBarDashboard from './components/NavBarDashboard.vue'
+
+export default {
+    components: {
+        NavBarDashboard
+    }
+}
+</script>

@@ -8,7 +8,7 @@
             </a>
         </li>
         <li>
-            <a href="/dashboard/settin">
+            <a href="/dashboard/settings">
                 <i class="fa fa-cog fa-2x"></i>
                 <span class="nav-text">Paramètres</span>
             </a>
